@@ -1,0 +1,14 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+git init 
+ls -ah
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+git status
+git diff readme.txt 
+$ git log --pretty=oneline
+git reflog
+git reset --hard commit_id
+git diff HEAD -- readme.txt 
+git checkout -- readme.txt
+git reset HEAD readme.txt
